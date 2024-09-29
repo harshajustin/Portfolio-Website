@@ -1,0 +1,26 @@
+<nav id="desktop-nav">
+    <div class="logo">Harsha Vardhan</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Harsha Vardhan</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links" >
+        <li><a href="#about" (click)="toggleMenu()">About</a></li>
+        <li><a href="#experience" (click)="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" (click)="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" (click)="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    
